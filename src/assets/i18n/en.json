@@ -1,0 +1,9 @@
+{
+    "LOGIN": {
+        "TITLE": "Enter Password",
+        "WRONG_PASSWORD": "The password is incorrect",
+        "PASSWORD_PLACEHOLDER": "Insert password...",
+        "SUBTITLE": "To access the CV ",
+        "BUTTON": "Login"
+    }
+}
