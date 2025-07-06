@@ -1,0 +1,28 @@
+.language-selector {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  gap: 20px;
+}
+
+.language-selector img {
+  width: 144px;
+  height: 134px;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+.language-selector img:hover {
+  transform: translateY(-2px);
+  border-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+.language-selector .selected-language {
+  transform: translateY(-2px);
+  border: 2px solid #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}

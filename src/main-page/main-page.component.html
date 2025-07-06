@@ -1,1 +1,16 @@
-<p>main-page works!</p>
+<nav id="menu">
+  <div class="menu-toggle" (click)="menuOpen = !menuOpen">
+    {{ menuOpen ? '✖' : '☰' }}
+  </div>
+  <div class="menu-items" [class.open]="menuOpen">
+    <div class="menu-item" *ngFor="let item of menuItems">
+      <div class="menu-text">
+        <a [routerLink]="item.link" (click)="menuOpen = false">{{ item.label | translate }}</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div *ngIf="!menuOpen" style="margin: 5rem;">
+    <router-outlet></router-outlet>
+</div>

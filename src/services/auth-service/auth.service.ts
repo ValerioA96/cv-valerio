@@ -2,7 +2,7 @@
 import { Injectable } from '@angular/core';
 import { UtilityFunctions } from '../../utility-functions/utility-functions';
 
-const DIRECTI0N = '1542516553';
+const DIRECTI0N = '63426480';
 
 @Injectable({
   providedIn: 'root'

@@ -5,5 +5,14 @@
         "PASSWORD_PLACEHOLDER": "Insert password...",
         "SUBTITLE": "To access the CV ",
         "BUTTON": "Login"
+    },
+    "MAIN_PAGE": {
+        "HOME": "Home",
+        "EXPERIENCE": "Experience",
+        "EDUCATION": "Education",
+        "SKILLS": "Skills",
+        "CONTACTS": "Contatti",
+        "ABOUT_ME": "About me",
+        "LANGUAGE": "Language"
     }
 }

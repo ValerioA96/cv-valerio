@@ -6,6 +6,7 @@ import { UtilityFunctions } from '../utility-functions/utility-functions';
 import { AuthService } from '../services/auth-service/auth.service';
 import { Langauges } from '../models/models';
 import { Router } from '@angular/router';
+import { TranslationService } from '../services/translation-service/translation-service.service';
 
 @Component({
   standalone: true,
@@ -19,14 +20,13 @@ export class LoginPageComponent implements OnInit {
   errorMessage: string = '';
   showError: boolean = false;
   
-  constructor(private _translateService: TranslateService,
-              private _authService: AuthService,
-              private router: Router
+  constructor(private _authService: AuthService,
+              private router: Router,
+              private _translationService: TranslationService
   ) {}
 
   ngOnInit() {
-    this._translateService.setDefaultLang('it');
-    this.switchLanguage('it');
+    this._translationService.initLanguage();
   }
 
   onSubmit(form: NgForm){
@@ -39,7 +39,7 @@ export class LoginPageComponent implements OnInit {
   }
 
   switchLanguage(lang: Langauges) {
-    this._translateService.use(lang);
+    this._translationService.setLanguage(lang);
   }
 
 }
