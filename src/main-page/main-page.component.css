@@ -65,6 +65,21 @@ nav#menu {
   color: rgba(255, 255, 255, 0.5);
 }
 
+.menu-text a {
+  border: 2px solid transparent;
+  border-radius: 4px;
+  padding: 0.2rem 0.5rem;
+  text-decoration: none;
+  display: inline-block;
+  transition: border-color 0.2s ease;
+}
+
+.menu-text a.active-tab {
+  border-color: #fa71cd;
+  background-color: rgba(250, 113, 205, 0.15);
+  box-shadow: 0 0 8px #fa71cdaa;
+}
+
 /* Responsive: mobile layout */
 @media (max-width: 768px) {
   .menu-toggle {
@@ -77,10 +92,6 @@ nav#menu {
     width: 100%;
     margin-top: 0em;
   }
-
-  /* .menu-items.open {
-    display: flex;
-  } */
 
   .menu-item {
     width: 100%;

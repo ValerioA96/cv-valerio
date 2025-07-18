@@ -16,13 +16,16 @@
 
 .language-selector img:hover {
   transform: translateY(-2px);
-  border-color: #ffffff;
+  /* border-color: #ffffff; */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 
 .language-selector .selected-language {
   transform: translateY(-2px);
-  border: 2px solid #ffffff;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  /* border: 2px solid #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); */
+  border: 2px solid #fa71cd;
+  background-color: rgba(250, 113, 205, 0.15);
+  box-shadow: 0 0 8px #fa71cdaa;
 }

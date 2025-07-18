@@ -1,0 +1,72 @@
+.job-container{
+    /* position: relative; */
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    padding: 8px;
+    color: white;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    width: fit-content;
+    box-sizing: border-box;
+
+}
+
+.title-header{
+    font-weight: bold;
+}
+
+.job-header{
+    margin: 1rem;
+}
+
+.job-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.company-header, .location-header{
+    display: flex;
+    gap: 8px;
+}
+
+.projects-container{
+    margin: 1rem;
+}
+
+
+@media (max-width: 768px) {
+
+    .job-container{
+        margin: 3rem;
+    }
+
+    .job-header {
+        margin: 0.5rem;
+    }
+
+    .projects-container {
+        margin: 0.5rem;
+    }
+
+    .title-header {
+        font-size: 1.2rem;
+    }
+
+    .company-header h5,
+    .location-header h6 {
+        font-size: 1rem;
+    }
+
+    .medium-icon-feather,
+    .medium-icon-bootstrap {
+        width: 20px;
+        height: 20px;
+    }
+
+    .small-icon-feather {
+        width: 16px;
+        height: 16px;
+    }
+}

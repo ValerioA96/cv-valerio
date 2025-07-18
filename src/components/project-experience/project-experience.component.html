@@ -1,0 +1,9 @@
+<div class="project-container">
+    <h4 class="project-title">{{project.title}}</h4>
+    <p class="project-description">{{project.description}}</p>
+    <div class="project-technlogies">
+        <span class="technlogy" *ngFor="let technology of project.technologies">
+            <app-badge [data]="technology"></app-badge>
+        </span>
+    </div>
+</div>
