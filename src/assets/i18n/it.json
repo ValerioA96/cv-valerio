@@ -1,12 +1,12 @@
 {
-    "LOGIN": {
+    "LOGIN":{
         "TITLE": "Inserire Password",
         "WRONG_PASSWORD": "La password non è corretta",
         "PASSWORD_PLACEHOLDER": "Inserisci password...",
         "SUBTITLE": "Per accedere al CV ",
         "BUTTON": "Accedi"
     },
-    "MAIN_PAGE": {
+    "MAIN_PAGE":{
         "HOME": "Home",
         "EXPERIENCE": "Esperienza",
         "EDUCATION": "Istruzione",
@@ -14,6 +14,9 @@
         "CONTACTS": "Contatti",
         "ABOUT_ME": "Informazioni su di me",
         "LANGUAGE": "Lingua"
+    },
+    "EDUCATION_PAGE":{
+        "MAIN_PROJECTS": "Progetti svolti:"
     },
     "JOBS":{
         "ORBYTA":{
@@ -42,7 +45,7 @@
         },
         "GUCCI":{
             "TITLE":"Assistente alle vendite & Magazziniere",
-            "DATE": "12/22 ~ 01/23",
+            "DATE": "12/2022 ~ 01/2023",
             "COMPANY": "Gucci",
             "LOCATION": "Torino Outlet Village - Settimo T.se",
             "PROJECTS":{
@@ -53,12 +56,57 @@
         },
         "JUVENTUS":{
             "TITLE":"Steward",
-            "DATE": "10/17 ~ 04/23",
+            "DATE": "10/2017 ~ 04/2023",
             "COMPANY": "Juventus Stadium & Museum",
             "LOCATION": "Torino",
             "PROJECTS":{
                 "STEWARD":{
                     "DESCRIPTION": "Steward e capo unità presso lo stadio e museo della Juventus."
+                }
+            }
+        }
+    },
+    "EDUCATION":{
+        "COMPUTER_SCIENCE_DEGREE":{
+            "TITLE": "Laurea in Informatica",
+            "DATE": "2017 ~ 2023",
+            "COMPANY": "Dipartimento di Informatica",
+            "LOCATION": "Torino",
+            "PROJECTS":{
+                "PROGRAMMING":{
+                    "TITLE": "Programmazione I, II, III",
+                    "DESCRIPTION": "I corsi hanno approfondito i concetti fondamentali della programmazione a oggetti (incapsulamento, ereditarietà, polimorfismo) utilizzando Java. In particolare, durante il corso di Programmazione III è stata sviluppata un’interfaccia grafica con JavaFX, seguendo il pattern MVC e i principi Observer/Observable. Le viste sono state costruite con file .fxml e la comunicazione con il model è gestita tramite controller e binding delle proprietà. È stata inoltre implementata la comunicazione client-server per l’invio di e-mail, utilizzando i socket della libreria java.net."
+                },
+                "OPERATING_SYSTEMS":{
+                    "TITLE":"Sistemi Operativi",
+                    "DESCRIPTION": "Svolgimento di un progetto di gruppo utilizzando C come linguaggio di riferimento. Il progetto consisteva nella gestione della comunicazione tra processi concorrenti utilizzando le principali IPC."
+                },
+                "ALGORITHMS":{
+                    "TITLE":"Algoritmi e Strutture Dati",
+                    "DESCRIPTION": "Svolgimento di un progetto di gruppo utilizzando Java e C come linguaggi di riferimento. Il progetto consisteva nell’implementazione di algoritmi visti durante il corso: algoritmi di ordinamento, programmazione dinamica, code con priorità, grafi."
+                },
+                "DATABASE":{
+                    "TITLE":"Basi di Dati",
+                    "DESCRIPTION": "Sviluppo di un database relazionale nelle seguenti fasi: progettazione concettuale, progettazione logica e implementazione (DDL e DML)."
+                },
+                "SOFTWARE_APPLICATION_DEVELOPMENT":{
+                    "TITLE":"Sviluppo Applicazioni Software",
+                    "DESCRIPTION": "Sviluppo completo della documentazione tecnica di un'applicazione software secondo la metodologia Agile Unified Process (UP). Attività svolte: analisi dei requisiti, modellazione del dominio, diagrammi di sequenza e interazione, modello delle classi e implementazione utilizzando Java come linguaggio di riferimento e JavaFX per l'interfaccia utente."
+                },
+                "TWEB":{
+                    "TITLE":"Tecnologie Web",
+                    "DESCRIPTION": "Creazione di una pagina web utilizzando tecnologie viste durante il corso: HTML, CSS, JavaScript, Ajax."
+                }
+            }
+        },
+        "DIPLOMA":{
+            "TITLE":"Diploma Liceo Scientifico Scienze Applicate",
+            "DATE": "2011 ~ 2016",
+            "COMPANY": "Liceo Madre Mazzarello",
+            "LOCATION": "Torino",
+            "PROJECTS": {
+                "HIGH_SCHOOL":{
+                    "DESCRIPTION": "Formazione scientifica con focus su matematica e informatica"
                 }
             }
         }

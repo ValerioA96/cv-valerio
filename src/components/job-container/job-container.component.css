@@ -36,6 +36,9 @@
     margin: 1rem;
 }
 
+.main-projects-header{
+    padding-top: 1rem;
+}
 
 @media (max-width: 768px) {
 

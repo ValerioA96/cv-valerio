@@ -1,7 +1,6 @@
 import { AfterViewChecked, Component } from '@angular/core';
-import { ProjectExperienceComponent } from '../../../components/project-experience/project-experience.component';
 import { JobContainerComponent } from '../../../components/job-container/job-container.component';
-import { JobVM, ProjectVM } from '../../../models/models';
+import { JobVM } from '../../../models/models';
 import feather from 'feather-icons';
 
 @Component({
@@ -39,7 +38,7 @@ export class ExperienceComponent implements AfterViewChecked{
         technologies: ['Angular', '.NET', 'Entity Framework Core', 'SQL Server, REST APIs']
       },
     ],
-    isJob: true
+    isJob: true,
   };
 
   public Gucci: JobVM = {

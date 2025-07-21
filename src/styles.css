@@ -31,3 +31,49 @@ body {
 .children-tab-container{
     margin: 2rem 10rem 2rem 10rem;
 }
+
+
+.timeline {
+  position: relative;
+  padding-left: 30px;
+  border-left: 2px solid #ccc;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -38.5px;
+  top: 10px;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(to right, #c471f5, #fa71cd);
+  border: 2px solid white;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.animate-tab {
+  animation: bounceFadeIn 0.8s ease;
+}
+
+@keyframes bounceFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(50px) scale(0.95);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(-10px) scale(1.02);
+  }
+  80% {
+    transform: translateY(5px) scale(0.98);
+  }
+  100% {
+    transform: translateY(0) scale(1);
+  }
+}
+

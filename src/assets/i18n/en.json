@@ -15,6 +15,9 @@
         "ABOUT_ME": "About me",
         "LANGUAGE": "Language"
     },
+    "EDUCATION_PAGE":{
+        "MAIN_PROJECTS": "Main projects:"
+    },
     "JOBS": {
         "ORBYTA": {
             "TITLE": "Frontend Developer",
@@ -31,18 +34,18 @@
                     "DESCRIPTION": "Involved in the Yoda UI project, an application developed for Costa Crociere S.p.A., dedicated to managing and defining cruise pricing. The tool is used by the company’s business analysts to support the pricing process and analyze commercial strategy."
                 },
                 "INTERNAL_PROJECT": {
-                    "TITLE": "Internal Project Orbyta - 06/23 ~ 06/24",
+                    "TITLE": "Internal Project Orbyta - 06/2023 ~ 06/2024",
                     "DESCRIPTION": "Worked on the Octopus project for Orbyta Engineering, an internal management system developed with technologies such as .NET Core, EF Core, C#, Angular, REST APIs, and SQL. In the first 3–4 months, I served as a full-stack developer, then focused mainly on Frontend development, creating and integrating custom components such as calendar and dropdown, in collaboration with the UI/UX team, following Agile methodologies."
                 },
                 "PERSONAL_PROJECT": {
-                    "TITLE": "Personal Project Orbyta - 04/23 ~ 06/23",
+                    "TITLE": "Personal Project Orbyta - 04/2023 ~ 06/2023",
                     "DESCRIPTION": "During my first months at Orbyta, I developed a small personal project to consolidate my technical skills, creating a simple application with login/registration pages and data display from the backend. The project was built using .NET and Entity Framework Core for the backend, Angular for the frontend, and Microsoft SQL Server as the database."
                 }
             }
         },
         "GUCCI": {
             "TITLE": "Sales Assistant & Storekeeper",
-            "DATE": "12/22 ~ 01/23",
+            "DATE": "12/2022 ~ 01/2023",
             "COMPANY": "Gucci",
             "LOCATION": "Turin Outlet Village - Settimo T.se",
             "PROJECTS": {
@@ -53,12 +56,57 @@
         },
         "JUVENTUS": {
             "TITLE": "Steward",
-            "DATE": "10/17 ~ 04/23",
+            "DATE": "10/2017 ~ 04/2023",
             "COMPANY": "Juventus Stadium & Museum",
             "LOCATION": "Turin",
             "PROJECTS": {
                 "STEWARD": {
                 "DESCRIPTION": "Steward and unit leader at the Juventus stadium and museum."
+                }
+            }
+        }
+    },
+    "EDUCATION": {
+        "COMPUTER_SCIENCE_DEGREE": {
+            "TITLE": "Bachelor's Degree in Computer Science",
+            "DATE": "2017 ~ 2023",
+            "COMPANY": "Department of Computer Science",
+            "LOCATION": "Turin",
+            "PROJECTS": {
+                "PROGRAMMING": {
+                    "TITLE": "Programming I, II, III",
+                    "DESCRIPTION": "The courses covered the fundamental concepts of object-oriented programming (encapsulation, inheritance, polymorphism) using Java. In particular, during Programming III, a graphical user interface was developed with JavaFX, following the MVC pattern and the Observer/Observable principles. The views were built with .fxml files, and the communication with the model was handled by controllers using JavaBean property binding. Client-server communication for email exchange was implemented using sockets from the java.net library."
+                },
+                "OPERATING_SYSTEMS": {
+                    "TITLE": "Operating Systems",
+                    "DESCRIPTION": "Development of a group project using C as the main language. The project focused on managing communication between concurrent processes using the main IPC mechanisms."
+                },
+                "ALGORITHMS": {
+                    "TITLE": "Algorithms and Data Structures",
+                    "DESCRIPTION": "Development of a group project using Java and C as reference languages. The project involved implementing algorithms studied during the course: sorting algorithms, dynamic programming, priority queues, graphs."
+                },
+                "DATABASE": {
+                    "TITLE": "Databases",
+                    "DESCRIPTION": "Development of a relational database through the following phases: conceptual design, logical design, and implementation (DDL and DML)."
+                },
+                "SOFTWARE_APPLICATION_DEVELOPMENT": {
+                    "TITLE": "Software Application Development",
+                    "DESCRIPTION": "Complete development of technical documentation for a software application following the Agile Unified Process (UP) methodology. Activities included requirements analysis, domain modeling, sequence and interaction diagrams, class modeling, and implementation using Java and JavaFX for the user interface."
+                },
+                "TWEB": {
+                    "TITLE": "Web Technologies",
+                    "DESCRIPTION": "Creation of a web page using technologies covered during the course: HTML, CSS, JavaScript, and Ajax."
+                }
+            }
+        },
+        "DIPLOMA": {
+            "TITLE": "High School Diploma – Scientific Studies with Applied Sciences",
+            "DATE": "2011 ~ 2016",
+            "COMPANY": "Liceo Madre Mazzarello",
+            "LOCATION": "Turin",
+            "PROJECTS": {
+                "HIGH_SCHOOL": {
+                "DESCRIPTION": "Scientific education with a focus on mathematics and computer science"
                 }
             }
         }

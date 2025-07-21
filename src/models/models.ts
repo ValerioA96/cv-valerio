@@ -13,4 +13,5 @@ export interface JobVM{
     date: string;
     projects: ProjectVM[];
     isJob: boolean; //-> true = job, -> false = education
+    insertMainProjects?: boolean;
 }

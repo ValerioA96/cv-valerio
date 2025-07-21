@@ -5,26 +5,3 @@ h4 {
     font-size: 1.2em;
     color: #333;
 }
-
-.timeline {
-  position: relative;
-  padding-left: 30px;
-  border-left: 2px solid #ccc;
-}
-
-.timeline-item {
-  position: relative;
-  margin-bottom: 2rem;
-}
-
-.timeline-dot {
-  position: absolute;
-  left: -38.5px;
-  top: 10px;
-  width: 16px;
-  height: 16px;
-  background: linear-gradient(to right, #c471f5, #fa71cd);
-  border: 2px solid white;
-  border-radius: 50%;
-  z-index: 1;
-}
