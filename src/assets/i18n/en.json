@@ -14,5 +14,53 @@
         "CONTACTS": "Contatti",
         "ABOUT_ME": "About me",
         "LANGUAGE": "Language"
+    },
+    "JOBS": {
+        "ORBYTA": {
+            "TITLE": "Frontend Developer",
+            "DATE": "From 17/04/2023 to present",
+            "COMPANY": "Orbyta",
+            "LOCATION": "Turin",
+            "PROJECTS": {
+                "BASICNET": {
+                    "TITLE": "BasicNet - 02/2025 to present",
+                    "DESCRIPTION": "Involved in the 4Shops (B2B) and BasiKit (B2C) projects. 4Shops is a platform aimed at companies in France, Spain, and Italy, designed to facilitate the purchase of Kappa products for resale. BasiKit, currently under development, will be a platform dedicated to the sale of sports kits, including both predefined and customizable models, for end customers."
+                },
+                "ENGINEERING": {
+                    "TITLE": "Engineering - 07/2024 ~ 01/2025",
+                    "DESCRIPTION": "Involved in the Yoda UI project, an application developed for Costa Crociere S.p.A., dedicated to managing and defining cruise pricing. The tool is used by the company’s business analysts to support the pricing process and analyze commercial strategy."
+                },
+                "INTERNAL_PROJECT": {
+                    "TITLE": "Internal Project Orbyta - 06/23 ~ 06/24",
+                    "DESCRIPTION": "Worked on the Octopus project for Orbyta Engineering, an internal management system developed with technologies such as .NET Core, EF Core, C#, Angular, REST APIs, and SQL. In the first 3–4 months, I served as a full-stack developer, then focused mainly on Frontend development, creating and integrating custom components such as calendar and dropdown, in collaboration with the UI/UX team, following Agile methodologies."
+                },
+                "PERSONAL_PROJECT": {
+                    "TITLE": "Personal Project Orbyta - 04/23 ~ 06/23",
+                    "DESCRIPTION": "During my first months at Orbyta, I developed a small personal project to consolidate my technical skills, creating a simple application with login/registration pages and data display from the backend. The project was built using .NET and Entity Framework Core for the backend, Angular for the frontend, and Microsoft SQL Server as the database."
+                }
+            }
+        },
+        "GUCCI": {
+            "TITLE": "Sales Assistant & Storekeeper",
+            "DATE": "12/22 ~ 01/23",
+            "COMPANY": "Gucci",
+            "LOCATION": "Turin Outlet Village - Settimo T.se",
+            "PROJECTS": {
+                "SALES_ASSISTANT_STOREKEEPER": {
+                "DESCRIPTION": "Sales and warehouse management in the luxury fashion sector."
+                }
+            }
+        },
+        "JUVENTUS": {
+            "TITLE": "Steward",
+            "DATE": "10/17 ~ 04/23",
+            "COMPANY": "Juventus Stadium & Museum",
+            "LOCATION": "Turin",
+            "PROJECTS": {
+                "STEWARD": {
+                "DESCRIPTION": "Steward and unit leader at the Juventus stadium and museum."
+                }
+            }
+        }
     }
 }

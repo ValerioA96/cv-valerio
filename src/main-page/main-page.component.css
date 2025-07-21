@@ -80,6 +80,11 @@ nav#menu {
   box-shadow: 0 0 8px #fa71cdaa;
 }
 
+.router-container {
+  display: flex;
+  justify-content: center;
+}
+
 /* Responsive: mobile layout */
 @media (max-width: 768px) {
   .menu-toggle {

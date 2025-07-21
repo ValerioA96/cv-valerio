@@ -1,17 +1,17 @@
 <div class="job-container">
     <div class="job-header">
         <div class="job-title">
-            <h3 class="title-header">{{job.title}}</h3>
+            <h3 class="title-header">{{job.title | translate}}</h3>
             <app-badge [data]="job.date"></app-badge>
         </div>
         <div class="company-header">
             <i data-feather="briefcase" class="medium-icon-feather" *ngIf="job.isJob"></i>
             <i class="bi bi-mortarboard medium-icon-bootstrap" *ngIf="!job.isJob"></i>
-            <h5 class="company-header">{{job.company}}</h5>
+            <h5 class="company-header">{{job.company | translate}}</h5>
         </div>
         <div class="location-header">
             <i data-feather="map-pin" class="small-icon-feather"></i>
-            <h6 class="company-header">{{job.location}}</h6>
+            <h6 class="company-header">{{job.location | translate}}</h6>
         </div>
     </div>
     <div class="projects-container" *ngFor="let project of job.projects">
