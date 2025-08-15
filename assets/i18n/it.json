@@ -1,0 +1,123 @@
+{
+    "LOGIN":{
+        "TITLE": "Inserire Password",
+        "WRONG_PASSWORD": "La password non è corretta",
+        "PASSWORD_PLACEHOLDER": "Inserisci password...",
+        "SUBTITLE": "Per accedere al CV ",
+        "BUTTON": "Accedi"
+    },
+    "MAIN_PAGE":{
+        "HOME": "Home",
+        "EXPERIENCE": "Esperienza",
+        "EDUCATION": "Istruzione",
+        "SKILLS": "Competenze",
+        "CONTACTS": "Contatti",
+        "ABOUT_ME": "Informazioni su di me",
+        "LANGUAGE": "Lingua"
+    },
+    "HOME":{
+        "TITLE": "Frontend Developer",
+        "ABOUT_ME": "Laureato presso l'Università di Informatica di Torino, Italia. Ho sempre voglia di mettermi alla prova e di imparare cose nuove. Ho tre grandi passioni: il web, la sicurezza informatica e i videogiochi.",
+        "DOWNLOAD": "Scarica CV",
+        "CONTACT_ME": "Contattami"
+    },
+    "EDUCATION_PAGE":{
+        "MAIN_PROJECTS": "Progetti svolti:"
+    },
+    "JOBS":{
+        "ORBYTA":{
+            "TITLE": "Frontend Developer",
+            "DATE": "Dal 17/04/2023 ad oggi",
+            "COMPANY": "Orbyta",
+            "LOCATION": "Torino",
+            "PROJECTS": {
+                "BASICNET":{
+                    "TITLE": "BasicNet - 02/2025 ad oggi",
+                    "DESCRIPTION": "Inserito nei progetti 4Shops (B2B) e BasiKit (B2C). 4Shops è una piattaforma rivolta alle aziende di Francia, Spagna e Italia, progettata per facilitare l’acquisto di prodotti Kappa destinati alla rivendita. BasiKit, attualmente in fase di sviluppo, sarà una piattaforma dedicata alla vendita di kit sportivi, sia modelli predefiniti che personalizzabili, per clienti finali."
+                },
+                "ENGINEERING":{
+                    "TITLE": "Engineering - 07/2024 ~ 01/2025",
+                    "DESCRIPTION": "Inserito nel progetto Yoda UI, un’applicazione sviluppata per Costa Crociere S.p.A., dedicata alla gestione e definizione dei prezzi delle crociere. Lo strumento è utilizzato dai business analyst dell’azienda per supportare il processo di pricing e l’analisi delle strategie commerciali."
+                },
+                "INTERNAL_PROJECT": {
+                    "TITLE": "Progetto Interno Orbyta - 06/23 ~ 06-24",
+                    "DESCRIPTION": "Ho lavorato al progetto Octopus per Orbyta Engineering, un gestionale interno sviluppato con tecnologie come .NET Core, EF Core, C#, Angular, REST APIs e SQL. Nei primi 3-4 mesi ho ricoperto il ruolo di sviluppatore full stack, per poi dedicarmi principalmente al Frontend, sviluppando e integrando componenti custom, come calendario e dropdown, in collaborazione con il team UI/UX, seguendo metodologie Agile."
+                },
+                "PERSONAL_PROJECT": {
+                    "TITLE": "Progetto Personale Orbyta - 04/23 ~ 06/23",
+                    "DESCRIPTION": "Nei primi mesi in Orbyta ho realizzato un mini-progetto personale per consolidare le competenze tecniche, sviluppando una semplice applicazione con pagina di login/registrazione e visualizzazione di dati provenienti dal backend. Il progetto è stato realizzato con .NET e Entity Framework Core per il backend, Angular per il frontend e Microsoft SQL Server come database."
+                }
+            }
+        },
+        "GUCCI":{
+            "TITLE":"Assistente alle vendite & Magazziniere",
+            "DATE": "12/2022 ~ 01/2023",
+            "COMPANY": "Gucci",
+            "LOCATION": "Torino Outlet Village - Settimo T.se",
+            "PROJECTS":{
+                "SALES_ASSISTANT_STOREKEEPER":{
+                    "DESCRIPTION": "Vendita e gestione magazzino nel settore luxury fashion."
+                }
+            }
+        },
+        "JUVENTUS":{
+            "TITLE":"Steward",
+            "DATE": "10/2017 ~ 04/2023",
+            "COMPANY": "Juventus Stadium & Museum",
+            "LOCATION": "Torino",
+            "PROJECTS":{
+                "STEWARD":{
+                    "DESCRIPTION": "Steward e capo unità presso lo stadio e museo della Juventus."
+                }
+            }
+        }
+    },
+    "EDUCATION":{
+        "COMPUTER_SCIENCE_DEGREE":{
+            "TITLE": "Laurea in Informatica",
+            "DATE": "2017 ~ 2023",
+            "COMPANY": "Dipartimento di Informatica",
+            "LOCATION": "Torino",
+            "PROJECTS":{
+                "PROGRAMMING":{
+                    "TITLE": "Programmazione I, II, III",
+                    "DESCRIPTION": "I corsi hanno approfondito i concetti fondamentali della programmazione a oggetti (incapsulamento, ereditarietà, polimorfismo) utilizzando Java. In particolare, durante il corso di Programmazione III è stata sviluppata un’interfaccia grafica con JavaFX, seguendo il pattern MVC e i principi Observer/Observable. Le viste sono state costruite con file .fxml e la comunicazione con il model è gestita tramite controller e binding delle proprietà. È stata inoltre implementata la comunicazione client-server per l’invio di e-mail, utilizzando i socket della libreria java.net."
+                },
+                "OPERATING_SYSTEMS":{
+                    "TITLE":"Sistemi Operativi",
+                    "DESCRIPTION": "Svolgimento di un progetto di gruppo utilizzando C come linguaggio di riferimento. Il progetto consisteva nella gestione della comunicazione tra processi concorrenti utilizzando le principali IPC."
+                },
+                "ALGORITHMS":{
+                    "TITLE":"Algoritmi e Strutture Dati",
+                    "DESCRIPTION": "Svolgimento di un progetto di gruppo utilizzando Java e C come linguaggi di riferimento. Il progetto consisteva nell’implementazione di algoritmi visti durante il corso: algoritmi di ordinamento, programmazione dinamica, code con priorità, grafi."
+                },
+                "DATABASE":{
+                    "TITLE":"Basi di Dati",
+                    "DESCRIPTION": "Sviluppo di un database relazionale nelle seguenti fasi: progettazione concettuale, progettazione logica e implementazione (DDL e DML)."
+                },
+                "SOFTWARE_APPLICATION_DEVELOPMENT":{
+                    "TITLE":"Sviluppo Applicazioni Software",
+                    "DESCRIPTION": "Sviluppo completo della documentazione tecnica di un'applicazione software secondo la metodologia Agile Unified Process (UP). Attività svolte: analisi dei requisiti, modellazione del dominio, diagrammi di sequenza e interazione, modello delle classi e implementazione utilizzando Java come linguaggio di riferimento e JavaFX per l'interfaccia utente."
+                },
+                "TWEB":{
+                    "TITLE":"Tecnologie Web",
+                    "DESCRIPTION": "Creazione di una pagina web utilizzando tecnologie viste durante il corso: HTML, CSS, JavaScript, Ajax."
+                }
+            }
+        },
+        "DIPLOMA":{
+            "TITLE":"Diploma Liceo Scientifico Scienze Applicate",
+            "DATE": "2011 ~ 2016",
+            "COMPANY": "Liceo Madre Mazzarello",
+            "LOCATION": "Torino",
+            "PROJECTS": {
+                "HIGH_SCHOOL":{
+                    "DESCRIPTION": "Formazione scientifica con focus su matematica e informatica"
+                }
+            }
+        }
+    },
+    "CONTACTS":{
+        "PHONE":"Telefono"
+    }
+}
