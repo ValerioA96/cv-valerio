@@ -49,6 +49,7 @@ export class EducationComponent implements AfterViewChecked {
       },
     ],
     isJob: false,
+    showMainProjects: true
   };
 
   public Diploma: JobVM = {
@@ -61,7 +62,8 @@ export class EducationComponent implements AfterViewChecked {
         description: 'EDUCATION.DIPLOMA.PROJECTS.HIGH_SCHOOL.DESCRIPTION'
       },
     ],
-    isJob: false
+    isJob: false,
+    showMainProjects: false
   };
 
   ngAfterViewChecked(): void {

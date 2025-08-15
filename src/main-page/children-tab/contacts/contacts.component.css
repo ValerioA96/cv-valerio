@@ -1,0 +1,178 @@
+.contact-hero {
+    padding: clamp(1.5rem, 4vw, 3rem) 1.25rem;
+}
+
+.contact-card {
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: clamp(1.25rem, 3vw, 2rem);
+    border-radius: var(--radius);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.04));
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(10px) saturate(120%);
+}
+.contact-card::before {
+    content: "";
+    position: absolute;
+    inset: -1px;
+    border-radius: inherit;
+    padding: 1px;
+    background: linear-gradient(135deg, var(--ring1), rgba(255, 255, 255, 0), var(--ring2));
+    -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0) border-box;
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+    z-index: 3;
+}
+
+.contact-orb {
+    position: absolute;
+    width: 46vmin;
+    height: 46vmin;
+    filter: blur(46px);
+    opacity: 0.45;
+    border-radius: 50%;
+    mix-blend-mode: screen;
+    z-index: 1;
+    pointer-events: none;
+}
+.orb-1 {
+    top: -8vmin;
+    left: -6vmin;
+    background: radial-gradient(circle, var(--ring1), transparent 60%);
+}
+.orb-2 {
+    right: -10vmin;
+    bottom: -10vmin;
+    background: radial-gradient(circle, var(--ring2), transparent 60%);
+}
+
+.contact-header {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 1rem;
+}
+.contact-title {
+    font-size: clamp(2.2rem, 4.8vw, 3.4rem);
+    line-height: 1.05;
+    margin: 0 0 0.35rem;
+    background: linear-gradient(90deg, #fff, #ffe3ff 30%, #e0c3ff 65%, #fff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0 0 12px rgba(255, 255, 255, 0.08);
+}
+.contact-sub {
+    margin: 0;
+    color: var(--muted);
+}
+
+.contact-grid {
+    position: relative;
+    z-index: 2;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin-top: 1.2rem;
+}
+
+.contact-item {
+    --shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 1.1rem;
+    border-radius: 18px;
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.06));
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    box-shadow: var(--shadow);
+    overflow: hidden;
+    isolation: isolate;
+    transition: transform 0.28s ease, box-shadow 0.28s ease;
+}
+.contact-item::after {
+    content: "";
+    position: absolute;
+    inset: -1px;
+    border-radius: inherit;
+    padding: 1px;
+    z-index: -1;
+    background: conic-gradient(from 0deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0));
+    -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0) border-box;
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    animation: border-spin 8s linear infinite paused;
+    opacity: 0.7;
+}
+.contact-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 26px rgba(0, 0, 0, 0.28);
+}
+.contact-item:hover::after {
+    animation-play-state: running;
+}
+
+@keyframes border-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.ci-icon {
+    flex: 0 0 auto;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(135deg, var(--ring1), var(--ring2));
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.22);
+}
+.ci-icon i {
+    width: 22px;
+    height: 22px;
+}
+.ci-icon.linkedin {
+    background: #0a66c2;
+    font-weight: 800;
+    color: #fff;
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+}
+.ci-icon .in {
+    font-size: 20px;
+    line-height: 1;
+}
+
+.ci-body {
+    flex: 1 1 auto;
+    min-width: 0;
+}
+.ci-title {
+    margin: 0;
+    font-size: 1.05rem;
+}
+.ci-text {
+    margin: 0.2rem 0 0;
+    color: var(--muted);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.ci-arrow {
+    margin-left: auto;
+    opacity: 0.85;
+}
+
+@media (max-width: 980px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+}
