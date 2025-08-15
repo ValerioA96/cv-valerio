@@ -22,7 +22,14 @@
     border-radius: inherit;
     padding: 1px;
     background: linear-gradient(135deg, var(--ring1), rgba(255, 255, 255, 0), var(--ring2));
-    -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0) border-box;
+    -webkit-mask:
+        linear-gradient(#000 0 0) content-box,
+        linear-gradient(#000 0 0) border-box;
+    -webkit-mask-composite: xor;
+    mask:
+        linear-gradient(#000 0 0) content-box,
+        linear-gradient(#000 0 0) border-box;
+    mask-composite: exclude;
     -webkit-mask-composite: xor;
     mask-composite: exclude;
     pointer-events: none;
@@ -105,7 +112,14 @@
     padding: 1px;
     z-index: -1;
     background: conic-gradient(from 0deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0));
-    -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0) border-box;
+    -webkit-mask:
+        linear-gradient(#000 0 0) content-box,
+        linear-gradient(#000 0 0) border-box;
+    -webkit-mask-composite: xor;
+    mask:
+        linear-gradient(#000 0 0) content-box,
+        linear-gradient(#000 0 0) border-box;
+    mask-composite: exclude;
     -webkit-mask-composite: xor;
     mask-composite: exclude;
     animation: border-spin 8s linear infinite paused;

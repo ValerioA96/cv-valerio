@@ -2,7 +2,7 @@ import { Langauges } from './../models/models';
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { TranslateModule, TranslateService } from '@ngx-translate/core';
+import { TranslateModule } from '@ngx-translate/core';
 import { TranslationService } from '../services/translation-service/translation-service.service';
 import { RouterModule } from '@angular/router';
 

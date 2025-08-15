@@ -1,8 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { FormsModule, NgForm } from '@angular/forms';
-import { TranslateModule, TranslateService } from '@ngx-translate/core';
-import { UtilityFunctions } from '../utility-functions/utility-functions';
+import { TranslateModule } from '@ngx-translate/core';
 import { AuthService } from '../services/auth-service/auth.service';
 import { Langauges } from '../models/models';
 import { Router } from '@angular/router';
