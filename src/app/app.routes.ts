@@ -26,7 +26,7 @@ export const routes: Routes = [
     { path: 'education', component: EducationComponent },
     { path: 'skills', component: SkillsComponent },
     { path: 'contacts', component: ContactsComponent },
-    { path: 'about-me', component: AboutMeComponent },
+    // { path: 'about-me', component: AboutMeComponent },
     { path: 'choose-language', component: ChooseLanguageComponent }
   ],
     canActivate: [authGuard]

@@ -13,9 +13,7 @@
             <i data-feather="map-pin" class="small-icon-feather"></i>
             <h6 class="company-header">{{job.location | translate}}</h6>
         </div>
-        <div class="main-projects-header" *ngIf="job.insertMainProjects">
-            <h4>{{"EDUCATION_PAGE.MAIN_PROJECTS"| translate}}</h4>
-        </div>
+        <h5 class="main-projects-header" *ngIf="!job.isJob">{{"EDUCATION_PAGE.MAIN_PROJECTS"| translate}}</h5>
     </div>
     <div class="projects-container" *ngFor="let project of job.projects">
         <app-project-experience [project]="project"></app-project-experience>

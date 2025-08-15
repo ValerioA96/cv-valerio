@@ -15,6 +15,12 @@
         "ABOUT_ME": "About me",
         "LANGUAGE": "Language"
     },
+    "HOME": {
+        "TITLE": "Frontend Developer",
+        "ABOUT_ME": "Graduated from the University of Computer Science in Turin, Italy. I am always eager to challenge myself and learn new things. I have three great passions: the web, cybersecurity, and video games.",
+        "DOWNLOAD": "Download CV",
+        "CONTACT_ME": "Contact me"
+    },
     "EDUCATION_PAGE":{
         "MAIN_PROJECTS": "Main projects:"
     },

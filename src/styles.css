@@ -1,3 +1,10 @@
+:root{
+  --bg1:#3a0ca3; --bg2:#b5179e;
+  --txt:#fff; --muted:rgba(255,255,255,.78);
+  --ring1:#ff6ec4; --ring2:#7873f5;
+  --radius:12px;
+}
+
 html, body {
     margin: 0;
     padding: 0;

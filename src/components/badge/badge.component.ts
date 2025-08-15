@@ -11,4 +11,5 @@ import { TranslateModule } from '@ngx-translate/core';
 export class BadgeComponent {
 
   @Input() data: string = '';
+  
 }

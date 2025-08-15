@@ -1,0 +1,30 @@
+<div class="children-tab-container animate-tab">
+  <section class="home-hero">
+    <div class="home-card">
+      <span class="home-orb orb-1" aria-hidden="true"></span>
+      <span class="home-orb orb-2" aria-hidden="true"></span>
+
+      <div class="home-copy">
+        <h1 class="home-title title-shine">{{ 'HOME.TITLE' | translate }}</h1>
+        <p class="home-sub">{{ 'HOME.ABOUT_ME' | translate }}</p>
+
+        <div class="cta">
+          <a class="v-btn v-btn--gradient" href="/assets/cv/anzil_cv.pdf" download>{{ 'HOME.DOWNLOAD' | translate }}</a>
+          <a class="v-btn v-btn--ghost" [routerLink]="['/main-page/contacts']">{{ 'HOME.CONTACT_ME' | translate }}</a>
+        </div>
+      </div>
+
+      <div class="home-photo">
+        <div class="photo-wrap">
+          <img
+            src="assets/home-image/graduation.jpg"
+            width="240" height="240"
+            alt="Valerio Anzil"
+            class="profile-img"
+          />
+        </div>
+        <div class="photo-shadow" aria-hidden="true"></div>
+      </div>
+    </div>
+  </section>
+</div>

@@ -15,6 +15,12 @@
         "ABOUT_ME": "Informazioni su di me",
         "LANGUAGE": "Lingua"
     },
+    "HOME":{
+        "TITLE": "Frontend Developer",
+        "ABOUT_ME": "Laureato presso l'Università di Informatica di Torino, Italia. Ho sempre voglia di mettermi alla prova e di imparare cose nuove. Ho tre grandi passioni: il web, la sicurezza informatica e i videogiochi.",
+        "DOWNLOAD": "Scarica CV",
+        "CONTACT_ME": "Contattami"
+    },
     "EDUCATION_PAGE":{
         "MAIN_PROJECTS": "Progetti svolti:"
     },

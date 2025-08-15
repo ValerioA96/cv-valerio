@@ -26,7 +26,7 @@ export class MainPageComponent {
     { label: 'MAIN_PAGE.EXPERIENCE', link: '/main-page/experience' },
     { label: 'MAIN_PAGE.EDUCATION', link: '/main-page/education' },
     { label: 'MAIN_PAGE.SKILLS', link: '/main-page/skills' },
-    // { label: 'MAIN_PAGE.CONTACTS', link: '/main-page/contacts' },
+    { label: 'MAIN_PAGE.CONTACTS', link: '/main-page/contacts' },
     // { label: 'MAIN_PAGE.ABOUT_ME', link: '/main-page/about-me' },
     { label: 'MAIN_PAGE.LANGUAGE', link: '/main-page/choose-language' },
   ];
