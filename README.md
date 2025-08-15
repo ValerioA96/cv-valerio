@@ -1,59 +1,97 @@
-# Valerio CV
+<div align="center">
 
-Progetto generato con Angular, versione 19.2.13.
+# 📄 Valerio Anzil — CV / Portfolio
 
-## Development server
+Portfolio personale sviluppato in **Angular**, pubblicato tramite **GitHub Pages**
 
-To start a local development server, run:
+🔗 **Live preview:** https://valerioa96.github.io/cv-valerio/login
 
-```bash
-ng serve
-```
+</div>
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+## 🧭 Panoramica
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Questo repository contiene il mio **CV interattivo** / portfolio, realizzato con Angular (standalone components) e pubblicato come **static site** su GitHub Pages.
 
-```bash
-ng generate component component-name
-```
+Le pagine (Home, Experience, Contacts) sono responsive, animate e allineate ad un tema visivo basato su **gradiente viola / rosa**.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
-```
+## 🔧 Stack & Librerie
 
-## Building
+| Tecnologia/Libreria     | Ruolo                                                             |
+|--------------------------|------------------------------------------------------------------|
+| Angular 17              | Framework principale (standalone components)                     |
+| TypeScript              | Tipizzazione + logica                                             |
+| SCSS / CSS              | Styling (glassmorphism, animazioni, gradient, responsiveness)     |
+| ngx-translate           | Internationalization 🇮🇹 / 🇬🇧                                      |
+| Feather Icons / Bootstrap Icons | Icone vettoriali                                      |
+| GitHub Pages            | Hosting del sito statico                                          |
 
-To build the project run:
+---
 
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+## ▶️ Avvio in locale
 
 ```bash
-ng test
+# installa le dipendenze (una sola volta)
+npm install
+
+# avvia l’applicazione in modalità sviluppo
+npm run start
+
 ```
+---
 
-## Running end-to-end tests
+## 🚀 Deploy
 
-For end-to-end (e2e) testing, run:
+develop  →  master →  deploy
+
+porto tutti i nuovi lavori su master e poi eseguo il comando:
 
 ```bash
-ng e2e
+npm run deploy
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+che corrisponde a fare:
 
-## Additional Resources
+```bash
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+ng build --configuration production --base-href "/cv-valerio/"
+
+npx angular-cli-ghpages --dir=dist/cv-valerio/browser
+
+```
+---
+
+## 🔖 Release
+
+In seguito al rilascio per creare una release(Tag Git) eseguire il seguente comando: 
+
+```bash
+npm run release --tag=<versione> --msg="<descrizione>"
+```
+
+ESEMPIO:
+
+```bash
+npm run release --tag=1.1.0 --msg="Nuova pagina Contatti + refactoring Home"
+```
+
+Verranno eseguiti in automatico:
+
+```bash
+git tag -a v1.1.0 -m "Nuova pagina Contatti + refactoring Home"
+git push origin v1.1.0
+```
+
+---
+
+## 🔁 Release
+
+develop   →   master   →   npm run deploy   →   npm run release --tag=x.y.z
+
+
+<div align="center">
+  <sub>Built & designed with ♥ by Valerio Anzil</sub>
+</div>
