@@ -24,17 +24,17 @@ export class ExperienceComponent implements AfterViewChecked{
       },
       {
         title: 'JOBS.ORBYTA.PROJECTS.ENGINEERING.TITLE',
-        description: 'JOBS.ORBYTA.PROJECTS.BASICNET.DESCRIPTION',
+        description: 'JOBS.ORBYTA.PROJECTS.ENGINEERING.DESCRIPTION',
         technologies: ['Angular', 'Typescript', 'CSS']
       },
       {
         title: 'JOBS.ORBYTA.PROJECTS.INTERNAL_PROJECT.TITLE',
-        description: 'JOBS.ORBYTA.PROJECTS.BASICNET.DESCRIPTION',
+        description: 'JOBS.ORBYTA.PROJECTS.INTERNAL_PROJECT.DESCRIPTION',
         technologies: ['Angular', '.NET', 'Entity Framework Core', 'SQL Server', 'REST APIs']
       },
       {
         title: 'JOBS.ORBYTA.PROJECTS.PERSONAL_PROJECT.TITLE',
-        description: 'JOBS.ORBYTA.PROJECTS.BASICNET.DESCRIPTION',
+        description: 'JOBS.ORBYTA.PROJECTS.PERSONAL_PROJECT.DESCRIPTION',
         technologies: ['Angular', '.NET', 'Entity Framework Core', 'SQL Server, REST APIs']
       },
     ],
