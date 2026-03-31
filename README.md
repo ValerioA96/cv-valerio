@@ -4,7 +4,7 @@
 
 Portfolio personale sviluppato in **Angular**, pubblicato tramite **GitHub Pages**
 
-🔗 **Live preview:** https://valerioa96.github.io/cv-valerio/main-page/contacts
+🔗 **Live preview:** https://valerioa96.github.io/cv-valerio/main-page/home
 
 </div>
 
