@@ -6,16 +6,10 @@ import { ExperienceComponent } from '../main-page/children-tab/experience/experi
 import { EducationComponent } from '../main-page/children-tab/education/education.component';
 import { SkillsComponent } from '../main-page/children-tab/skills/skills.component';
 import { ContactsComponent } from '../main-page/children-tab/contacts/contacts.component';
-import { AboutMeComponent } from '../main-page/children-tab/about-me/about-me.component';
 import { ChooseLanguageComponent } from '../main-page/children-tab/choose-language/choose-language.component';
 
-
 export const routes: Routes = [
-  { path: '', redirectTo: '/login', pathMatch: 'full' },
-  { 
-    path: 'login', 
-    loadComponent: () => import('../login-page/login-page.component').then(m => m.LoginPageComponent),
-  },
+  { path: '', redirectTo: '/main-page/home', pathMatch: 'full' },
   {
     path: 'main-page',
     loadComponent: () => import('../main-page/main-page.component').then(m => m.MainPageComponent),
@@ -31,7 +25,7 @@ export const routes: Routes = [
   ],
     canActivate: [authGuard]
   },
-  { path: '**', redirectTo: '/login' }
+  { path: '**', redirectTo: '/main-page/home' }
 ];
 
 @NgModule({
