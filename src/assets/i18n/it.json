@@ -16,7 +16,7 @@
         "LANGUAGE": "Lingua"
     },
     "HOME":{
-        "TITLE": "Frontend Developer",
+        "TITLE": "Full Stack Developer",
         "ABOUT_ME": "Laureato presso l'Università di Informatica di Torino, Italia. Ho sempre voglia di mettermi alla prova e di imparare cose nuove. Ho tre grandi passioni: il web, la sicurezza informatica e i videogiochi.",
         "DOWNLOAD": "Scarica CV",
         "CONTACT_ME": "Contattami"
@@ -26,14 +26,14 @@
     },
     "JOBS":{
         "ORBYTA":{
-            "TITLE": "Frontend Developer",
+            "TITLE": "Full Stack Developer",
             "DATE": "Dal 17/04/2023 ad oggi",
             "COMPANY": "Orbyta",
             "LOCATION": "Torino",
             "PROJECTS": {
                 "BASICNET":{
                     "TITLE": "BasicNet - 02/2025 ad oggi",
-                    "DESCRIPTION": "Inserito nei progetti 4Shops (B2B) e BasiKit (B2C). 4Shops è una piattaforma rivolta alle aziende di Francia, Spagna e Italia, progettata per facilitare l’acquisto di prodotti Kappa destinati alla rivendita. BasiKit, attualmente in fase di sviluppo, sarà una piattaforma dedicata alla vendita di kit sportivi, sia modelli predefiniti che personalizzabili, per clienti finali."
+                    "DESCRIPTION": "Inserito nel progetto 4Shop. 4Shop è la piattaforma e-commerce B2B di Basicnet, pensata per la vendita all'ingrosso multi-brand e multi-mercato. Consente a clienti e agenti di consultare il catalogo, comporre gli ordini di pre-order e riassortimento e seguirli fino alla conferma, mentre il back-office gestisce store, assortimenti, listini e anagrafiche da un unico punto."
                 },
                 "ENGINEERING":{
                     "TITLE": "Engineering - 07/2024 ~ 01/2025",
