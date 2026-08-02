@@ -1,6 +1,8 @@
 import { Injectable } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
+export type LanguageType = 'it' | 'en';
+
 @Injectable({ providedIn: 'root' })
 export class TranslationService {
   constructor(private translate: TranslateService) {}
@@ -16,7 +18,7 @@ export class TranslationService {
     localStorage.setItem('lang', lang);
   }
 
-  getCurrentLanguage(): string {
-    return localStorage.getItem('lang')!;
+  getCurrentLanguage(): LanguageType {
+    return localStorage.getItem('lang') as LanguageType;
   }
 }

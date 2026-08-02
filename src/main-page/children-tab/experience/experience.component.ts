@@ -20,7 +20,7 @@ export class ExperienceComponent implements AfterViewChecked{
       {
         title: 'JOBS.ORBYTA.PROJECTS.BASICNET.TITLE',
         description: 'JOBS.ORBYTA.PROJECTS.BASICNET.DESCRIPTION',
-        technologies: ['Angular', 'Typescript', 'CSS']
+        technologies: ['Angular', '.NET', 'Entity Framework Core', 'SQL Server', 'REST APIs']
       },
       {
         title: 'JOBS.ORBYTA.PROJECTS.ENGINEERING.TITLE',
@@ -35,7 +35,7 @@ export class ExperienceComponent implements AfterViewChecked{
       {
         title: 'JOBS.ORBYTA.PROJECTS.PERSONAL_PROJECT.TITLE',
         description: 'JOBS.ORBYTA.PROJECTS.PERSONAL_PROJECT.DESCRIPTION',
-        technologies: ['Angular', '.NET', 'Entity Framework Core', 'SQL Server, REST APIs']
+        technologies: ['Angular', '.NET', 'Entity Framework Core', 'SQL Server', 'REST APIs']
       },
     ],
     isJob: true,
