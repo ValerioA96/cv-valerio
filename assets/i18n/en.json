@@ -16,7 +16,7 @@
         "LANGUAGE": "Language"
     },
     "HOME": {
-        "TITLE": "Frontend Developer",
+        "TITLE": "Full Stack Developer",
         "ABOUT_ME": "Graduated from the University of Computer Science in Turin, Italy. I am always eager to challenge myself and learn new things. I have three great passions: the web, cybersecurity, and video games.",
         "DOWNLOAD": "Download CV",
         "CONTACT_ME": "Contact me"
@@ -26,14 +26,14 @@
     },
     "JOBS": {
         "ORBYTA": {
-            "TITLE": "Frontend Developer",
+            "TITLE": "Full Stack Developer",
             "DATE": "From 17/04/2023 to present",
             "COMPANY": "Orbyta",
             "LOCATION": "Turin",
             "PROJECTS": {
                 "BASICNET": {
                     "TITLE": "BasicNet - 02/2025 to present",
-                    "DESCRIPTION": "Involved in the 4Shops (B2B) and BasiKit (B2C) projects. 4Shops is a platform aimed at companies in France, Spain, and Italy, designed to facilitate the purchase of Kappa products for resale. BasiKit, currently under development, will be a platform dedicated to the sale of sports kits, including both predefined and customizable models, for end customers."
+                    "DESCRIPTION": "Involved in the 4Shop project. 4Shop is Basicnet's B2B e-commerce platform, designed for multi-brand and multi-market wholesale. It allows customers and agents to browse the catalogue, build pre-order and replenishment orders and follow them through to confirmation, while the back-office manages stores, assortments, price lists and master data from a single place."
                 },
                 "ENGINEERING": {
                     "TITLE": "Engineering - 07/2024 ~ 01/2025",
