@@ -69,14 +69,17 @@ npx angular-cli-ghpages --dir=dist/cv-valerio/browser
 In seguito al rilascio per creare una release(Tag Git) eseguire il seguente comando: 
 
 ```bash
-npm run release --tag=<versione> --msg="<descrizione>"
+npm run release -- <versione> "<descrizione>"
 ```
 
 ESEMPIO:
 
 ```bash
-npm run release --tag=1.1.0 --msg="Nuova pagina Contatti + refactoring Home"
+npm run release -- 1.1.0 "Nuova pagina Contatti + refactoring Home"
 ```
+
+> ⚠️ I due trattini `--` sono obbligatori: servono a far passare gli argomenti
+> allo script invece che a npm.
 
 Verranno eseguiti in automatico:
 
@@ -85,11 +88,19 @@ git tag -a v1.1.0 -m "Nuova pagina Contatti + refactoring Home"
 git push origin v1.1.0
 ```
 
+Prima di procedere lo script controlla che la versione sia nel formato `x.y.z`,
+che il tag non esista gia' e avvisa se ci sono modifiche non committate.
+Per vedere cosa verrebbe eseguito senza toccare nulla:
+
+```bash
+npm run release -- 1.1.0 "Descrizione" --dry-run
+```
+
 ---
 
 ## 🔁 Release
 
-develop   →   master   →   npm run deploy   →   npm run release --tag=x.y.z
+develop   →   master   →   npm run deploy   →   npm run release -- x.y.z "descrizione"
 
 
 <div align="center">

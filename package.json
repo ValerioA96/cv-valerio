@@ -9,7 +9,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "deploy": "ng build --configuration production --base-href \"/cv-valerio/\" && npx angular-cli-ghpages --dir=dist/cv-valerio/browser",
-    "release": "git tag -a v$npm_config_tag -m \"$npm_config_msg\" && git push origin v$npm_config_tag"
+    "release": "node scripts/release.mjs"
   },
   "private": true,
   "dependencies": {
