@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { authGuard } from '../auth-guard/auth.guard';
 import { HomeComponent } from '../main-page/children-tab/home/home.component';
 import { ExperienceComponent } from '../main-page/children-tab/experience/experience.component';
 import { EducationComponent } from '../main-page/children-tab/education/education.component';
@@ -22,8 +21,7 @@ export const routes: Routes = [
     { path: 'contacts', component: ContactsComponent },
     // { path: 'about-me', component: AboutMeComponent },
     { path: 'choose-language', component: ChooseLanguageComponent }
-  ],
-    canActivate: [authGuard]
+  ]
   },
   { path: '**', redirectTo: '/main-page/home' }
 ];

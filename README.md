@@ -14,7 +14,9 @@ Portfolio personale sviluppato in **Angular**, pubblicato tramite **GitHub Pages
 
 Questo repository contiene il mio **CV interattivo** / portfolio, realizzato con Angular (standalone components) e pubblicato come **static site** su GitHub Pages.
 
-Le pagine (Home, Experience, Contacts) sono responsive, animate e allineate ad un tema visivo basato su **gradiente viola / rosa**.
+Le pagine (Home, Experience, Education, Contacts, Language) sono responsive, animate e allineate ad un tema visivo basato su **gradiente viola / rosa**.
+
+Il sito è pubblico: non è richiesto alcun login per consultarlo.
 
 ---
 
@@ -22,9 +24,9 @@ Le pagine (Home, Experience, Contacts) sono responsive, animate e allineate ad u
 
 | Tecnologia/Libreria     | Ruolo                                                             |
 |--------------------------|------------------------------------------------------------------|
-| Angular 17              | Framework principale (standalone components)                     |
+| Angular 19              | Framework principale (standalone components)                     |
 | TypeScript              | Tipizzazione + logica                                             |
-| SCSS / CSS              | Styling (glassmorphism, animazioni, gradient, responsiveness)     |
+| CSS                     | Styling (glassmorphism, animazioni, gradient, responsiveness)     |
 | ngx-translate           | Internationalization 🇮🇹 / 🇬🇧                                      |
 | Feather Icons / Bootstrap Icons | Icone vettoriali                                      |
 | GitHub Pages            | Hosting del sito statico                                          |
@@ -32,6 +34,9 @@ Le pagine (Home, Experience, Contacts) sono responsive, animate e allineate ad u
 ---
 
 ## ▶️ Avvio in locale
+
+> ⚠️ Serve **Node.js ≥ 18.19** (consigliato Node 20): con versioni precedenti
+> Angular CLI non parte e anche `npm run deploy` fallisce. Con nvm, ad esempio: `nvm use 20.19.6`.
 
 ```bash
 # installa le dipendenze (una sola volta)
